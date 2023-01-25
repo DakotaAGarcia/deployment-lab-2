@@ -1,17 +1,33 @@
-* {
-    font-family: sans-serif;
-}
-
-button {
-    background-color: black;
-    color: white;
-    border: none;
-    border-right: 2px solid aqua;
-    border-bottom: 2px solid aqua;
-    padding: 10px 20px;
-    font-weight: bold;
-}
-
-p {
-    width: 50%;
-}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  nav {
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav a {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  section {
+    margin: 50px;
+  }
+  
