@@ -1,5 +1,24 @@
 {
   "dependencies": {
-    "express": "^4.18.2"
-  }
+    "express": "^4.18.2",
+    "rollbar": "^2.26.1"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "deployment-2",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DakotaAGarcia/deployment-lab-2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DakotaAGarcia/deployment-lab-2/issues"
+  },
+  "homepage": "https://github.com/DakotaAGarcia/deployment-lab-2#readme",
+  "description": ""
 }
